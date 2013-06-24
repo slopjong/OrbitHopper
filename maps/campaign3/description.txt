@@ -1,0 +1,14 @@
+[ Campaign Name  ]
+Orbit-Hopper tutorial
+
+[ Number of Levels ]
+17
+
+[ Month of creation ]
+12-2005
+
+[ Author ]
+Zneaker
+
+[ Description ]
+This is a "must-play" for all beginners. It plays a lot  easier than the standard campaign. Introduces different  floor types, triggers, moving floors etc.

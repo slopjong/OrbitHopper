@@ -1,0 +1,17 @@
+OBJS = 	RaceEnd.o Game.o RaceM.o AI.o Init.o TimeAttack.o Single.o Font.o \
+		LevelEnd.o CastleMEnd.o LevelEd.o SinglePlSel.o SinglePlCSel.o Options.o \
+		Highscore.o Structs.o Ghost.o Menu.o Geometrics.o MapSel.o Utils.o Sound.o \
+		Console.o ModeSelM.o CastleM.o
+
+
+LIBS = 	C:\SDL-1.2.9\lib\SDL.dll C:\SDL-1.2.9\lib\SDL_mixer.lib \
+		C:\SDL-1.2.9\lib\SDL_image.lib C:\OpenGL\lib\opengl32.lib \
+		C:\OpenGL\lib\glu32.lib
+
+INC = -IC:\SDL-1.2.9\include -IC:\OpenGL\include
+
+OrbitHopper.exe: $(OBJS)
+	g++ -O3 -s -o OrbitHopper.exe $(OBJS) -mwindows  $(LIBS)
+
+%.o: source\%.cpp headers\%.h
+	g++ -c -o $@ $< $(INC)

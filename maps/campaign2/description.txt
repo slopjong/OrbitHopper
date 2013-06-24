@@ -1,0 +1,14 @@
+[ Campaign Name  ]
+Standard campaign
+
+[ Number of Levels ]
+36
+
+[ Month of creation ]
+12-2005
+
+[ Author ]
+Zneaker
+
+[ Description ]
+36 levels of jumping and playing pong.

@@ -1,0 +1,421 @@
+Version 1.16c      (07/19/2009)
+
+- Fixed: Bad OpenGL-initialization could produce crash
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+Version 1.16b      (06/21/2009)
+
+- Fixed: Game wouldn't run on GPUs without shader support
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+Version 1.16        (07/20/2008)
+
+- Added ultra-high details: post-processing- Fixed: laggy ghost replay
+- Minor GUI improvements
+- Fixed: memory leaks
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+Version 1.15        (11/27/2007)
+
+- New: settings.ini entry to force windowed mode
+- Changed: behavior of powerup-placement
+- Fixed: some minor Castle-Attack glitches
+- minor GUI changes
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Version 1.14        (11/24/2007)
+
+- New: added invisible borders to pong challenges
+- New: introduced a medal system to time-attack mode
+- New: shaded floors
+- cleaned up title-screens and background images	
+- changed some speed calculations
+- improved rendering performance of high detail floors
+- replaced buggy time-attack level
+- Fixed: crashes in race mode
+- Fixed: bug in leveleditor dialogs
+- Fixed: minor pong-bug
+- Fixed: some wall-jump issues
+- Fixed: missing highscore could crash game
+- minor changes (GUI etc.)
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Version 1.13        (12/10/2006)
+
+- added mapshots to multiplayer-screen
+- added options to multiplayer screen
+- New: config-file: multiplayer.ini
+- New: console command: shadows [on/off]
+- New: dynamic stencil-shadows
+- Fixed: memory-leak in Options.cpp
+
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+Version 1.12        (9/24/2006)
+
+- minor fixes
+- released under the GNU GPL
+
+
+
+New in Version 1.12 (6/19/2006)
+
+
+- New: settings.ini entry: drawing distance
+- New: settings.ini entry: speed-effect (game looks pretty boring if turned off)
+- New: detail level
+- New: floor-type "Sand": prevents you from jumping
+- New: campaign: "Highway to H..."
+- New: console command: speed [on/off]
+- Redone: navigation in options menu
+- Redone: ship-model
+- Fixed: castle-attack crash
+- Fixed: crashes in Leveleditor file-dialog
+- Improved: enemy AI
+- Improved: performance of different detail levels
+- Added speed-effect to multiplayer
+- Slightly changed camera angle
+- etc.
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+New in Version 1.11 (1/3/2006)
+
+- Fixed: Singleplayer-progress bug
+- Fixed: multiplayer: buggy trigger-system
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+
+New in Version 1.10 (12/22/2005)
+
+- Fixed: bump-sound not playing
+- Fixed: incorrect order of floors
+- New: animated textures (-> ReadMe.txt )
+- New: feature to load custom gfx-subfolders (-> ReadMe.txt )
+- Added: settings.ini entry "AnimSpeed" - old settings.ini files don't work anymore
+- New: console command: "animspeed [0-50]" to adjust speed of animations
+- New: game now allows multiple custom campaigns
+- New: *.slv file format has changed - use slvconvert (-> SlVConvert.txt ) to convert custom maps
+- New: added zoom function to leveleditor - use mousewheel to zoom in/out and middlemousebutton to reset view
+- New: new trigger-system (now allows trigger-floors and floors that change their type)
+- Updated: Leveleditor.pdf
+- Changed: trigger dialog has changed
+- New: "new level" button added to leveled - gui
+- Added: "Orbit-Hopper Tutorial" campaign
+- Changed: redone some AI routines
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.09 (10/17/2005)
+
+- fixed potential buffer overflows
+- game now exits in a cleaner way
+- New: pong-ball now reacts to moving floors
+- New: moving floors are able to push player off of floors
+- New: 3 new singleplayer-campaign levels
+- New: amount of levels is no longer limited
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.08 (10/15/2005)
+
+- console is now available in menu & multiplayer modes
+- Added various debug output to all console-states
+- Added alternative console key [^]/[~]
+- Changed: movement in leveleditor is now timebased
+- New: leveleditor adds *.slv ending to levelname when saving a map
+- Improved enemy AI ( timing etc. )
+- Added space backgrounds to menus
+- if settings.ini is invalid, default values are used
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.07 (10/2/05)
+
+- Fixed: behavior of "new" handling type on ice floors
+- Added log messages to game initialization
+- Added: invalid concole commands now print help text
+- Fixed: pong challenge problems when using "new" handling
+- increased max amount of TA & SP levels
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.06 (9/29/05)
+
+- Changed "new" handling type slightly
+- Changed floor highlighting in Race-Mode back to V 1.01
+- Fixed: "new" handling type now works in CA mode as well
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.05 (9/28/05)
+
+- Changed: "new" handling-type redone
+- New: two types of replays (one for each handling-type)
+- New: respawning at the start of a singleplayermap doesn't cost a life anymore
+- New: added new visual effect to damage-floors
+- New: 2 different texture-sets ( added comic/classic option )
+- New: more detailed floors ( added low/high detail option )
+- New console commands: "details on" "details off" "comic" "classic"
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.01 (9/23/05)
+
+- Fixed: crash caused by AI
+- Fixed: incorrect level order in campaign-mode
+- Fixed: first run of Player2 not being highlighted correctly in Race-Mode
+- Fixed: leveleditor drag&drop - crash
+- Fixed: collision-detection in Race-Mode
+- Added: "Number of lives lost" & skill statistics to campaign-mode
+- Added: one Time-Attack level
+- Added: two Singleplayer-Campaign levels to adjust difficulty
+- New:   Leveleditor-manual ( pdf - 9 pages )
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Version 1.0 (5/15/05)
+
+- "SKYJUMP" IS NOW KNOWN AS "ORBIT HOPPER"
+- Added: option to use mipmaps
+- Added: setting.ini - entry to turn off sounds
+- Changed wall-jump behavior in Time Attack mode
+- Changed life-display in racemode
+- Fixed: Playermodel in multiplayer mode
+- Added: Singleplayer mode featuring:
+	- one campaign (30 levels)
+	- pong challenges, enemies and extra-lives (3 difficulties each)
+	- checkpoints
+	- progressbar etc...
+
+- Added: new space-backgrounds
+- Fixed: Leveleditor crash when viewing mobile floors
+- New maps: 
+	-40 Timeattack maps,
+	-30 Singleplayer maps,
+	-5 Race maps,
+	-7 Castle-Attack maps total
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.7 (3/28/05)
+
+- Added Multiplayer Mode: Race
+- Added Race Map ("ra-levelname.slv")
+- Fixed: Jump key delays in CA-Mode
+- Fixed: Random player crashes in CA-Mode
+- Fixed: Ice floor acceleration
+- Fixed: file system trouble
+- Improved floor collision detection
+- Added: new levels
+- Added: Time-Attack Total&Average Time stats
+- Added: CA GUI now shows own score
+- Increased range of explosion-power-up 
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.6  (3/9/05):
+
+- Now using new SDL Version 1.2.8
+- Added Multiplayer Mode: Castle Attack
+- Added Castle-Attack Maps ("ca-levelname.slv")
+- Added "glow on/off" console command
+- New Controls: [Use] and [Reset]
+- New Settings.ini - holds controls of 2 players
+- Converted all textures to pngs to reduce filesize
+- Optimized some routines
+- Added Power-Ups to Multiplayer:
+	- Double-Jump
+	- Wall
+	- Transform into Ice/Damage
+	- Explode
+	- Shield
+
+
+LevelEditor:
+	-Added "Center of Map" -Line
+	-Added Power-Up (select and click on floor to place)
+
+
+IMPORTANT: GAME NOW REQUIRES SDL 1.2.8, SDL_IMAGE AND SDL_MIXER
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.45  (12/1/04):
+
+- Fixed levelEditor crash
+- Added [VIDEO] section to settings.ini - allows custom resolutions
+- Added multiplayer-mode: castle attack (not playable yet)
+- Added c-level1.slv testmap (Castle-Attack Mode only)
+- Added: two new time-attack levels
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.4	(10/27/04):
+
+- All new menu
+- Console & highscore now accepts a bigger variety of characters
+- New floor: GOAL
+- Added GOAL floor to all levels
+- Added some decorations
+- Added moving floors
+- Added new level: level19.slv (using moving floors)
+
+
+LevelEditor
+	- Added GOAL floor
+	- Added moving-floors feature (created by drag&drop while holding down [CRTL])
+	- Added triggered moving-floors		
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.3:
+
+- New sound effects
+- Added "Effects" entry in setting.ini / Options
+- Improved overall performance
+- Improved performance of glow-effect
+- Implemented In-Game console (opens after pressing [TAB])
+- Added console commands: "wireframe on/off", "debug on/off"
+- New font texture
+- Added some text to levelend-screen
+- etc.
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.2:
+
+- Added various sound effects (Game now needs SDL_mixer runtime-libraries)
+- Added playermodel
+- New Replay-Ghost-Model
+- Fixed replay lags
+- Fixed smoke effects
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+New in Beta 1.1:
+
+- Added "Ghost-Replay" 	(replays are saved in levelname.gho files in your maps directory)
+- Changed jump-height 	(now 2 blocks high)
+- Changed ice movement
+- Added timer-delay 	(time starts with first key hit)
+- Added wall-jump move
+- Optimized frame rates
+- Added: Bumping left-/right side of floors doesn't kill
+- Fixed early clipping of large floors
+- Fixed several crashes
+
+LevelEditor:
+	- Floor-positions/size are now aligned to grid
+	- Added highlighting of selected floor
+	- Camera positions are now saved after changing perspective
+	- Added keys [n] and [m] to decrease/increase height of current floor
+	- Added wrap around to file-selection dialog
+	- Fixed several crashes and memory leaks
+	
