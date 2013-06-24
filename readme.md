@@ -1,11 +1,11 @@
 Orbit Hopper
 ========
 
-Does anyone remember "Skyroads".. ?
+Does anyone remember _Skyroads_?
 
 Orbit-Hopper is a Skyroads-clone featuring OpenGL 3D graphics, enemies, new floors, highscores, new levels and much more. A leveleditor is included.
 
-Thanks to SDL & OpenGL this project runs both on Windows and Linux. Source-Code is available, so you might even be able to get it to run on MacOS.
+Thanks to SDL & OpenGL Orbit Hopper runs both on Windows and Linux. You might even be able to get it to run on MacOS.
 
 Features
 --------------
@@ -26,3 +26,8 @@ Features
 * complex trigger-system to allow dynamic levels
 * 10+ floor types (such as speed up, slow down...)
 * 70+ maps
+
+Credits
+-------
+
+The original developer is Harald Obermaier and the project is hosted [here](http://www.zneaker.com/joomla/index.php?view=article&catid=40%3Aprojects&id=48%3Aorbit-hopper&option=com_content&Itemid=27). Consider this git repository as a backup.
